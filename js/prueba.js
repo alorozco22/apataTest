@@ -24,13 +24,6 @@ var fillIcons = function() {
   });
 };
 
-window.onload = function(){
-  setInterval(fillIcons, timeAnimation*0.8);
-  fillIcons();
-
-$('.js-replay').on('click', function() {
-   fillIcons();
-});  
-}
-
+setTimeout(fillIcons, 500);
+setInterval(fillIcons, timeAnimation*0.8);
 

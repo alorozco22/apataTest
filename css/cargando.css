@@ -6,7 +6,7 @@ body {
   background-color: #eee;
 }
 .content {
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
   width:100%;
@@ -25,12 +25,9 @@ body {
   background-position: center;
   
   background-size: cover;
-
-  display:flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
+  padding:10%;
 }
-
 
 
 
