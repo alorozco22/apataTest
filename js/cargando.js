@@ -1,7 +1,7 @@
 let nohacargado = true;
 let tiempoMinimoYaPaso = false;
 
-setTimeout(function(){tiempoMinimoYaPaso=true;}, 5000);
+setTimeout(function(){tiempoMinimoYaPaso=true;}, 6000);
 
 $(window).on("scroll", function(){
 	if (nohacargado){
