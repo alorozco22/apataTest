@@ -19,14 +19,14 @@ body {
   top: 0;
   left: 0;
   background-color: #242f3f;
-  background-image: url('../imgs/ApataHorizontal-min.jpg');
+  background-image: url('../imgs/ApataHorizontal-minCrop.jpg');
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   
   background-size: cover;
   margin: auto;
-  padding:10%;
+  padding:15%;
 }
 
 
