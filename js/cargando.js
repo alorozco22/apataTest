@@ -21,6 +21,14 @@ let desaparecer = function(){
 	} else {
 		$(".loader-wrapper").fadeOut("slow");
      	setTimeout(function(){ nohacargado = false; }, 1000);
+     	setTimeout(function(){
+     		let aparecer=document.getElementsByClassName("cont");
+     		for (let i = aparecer.length - 1; i >= 0; i--) {
+     			aparecer[i].style.display = "block";
+     		}
+     	},1000);
+
+     	
 	}
 }
 
